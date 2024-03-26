@@ -1,0 +1,2 @@
+# mokausi
+aprasymo kolkas nera
