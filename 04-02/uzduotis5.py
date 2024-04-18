@@ -1,7 +1,8 @@
-'''
+"""
 Parašykite programą, apibrėžiančią funkciją extract_email_addresses(),
 kuri priima tekstą kaip įvestį ir iš teksto ištraukia visus el. pašto adresus
-'''
+"""
+
 # import re
 # def extract_emails(text):
 #         # Define the regular expression pattern for an email address
@@ -15,16 +16,18 @@ kuri priima tekstą kaip įvestį ir iš teksto ištraukia visus el. pašto adre
 # emails = extract_emails(text)
 # print(emails)
 
+
 def extract_email_addresses():
     enter = input("Enter text containing Email addresses: ")
     emails = []
     for email in enter.split():
-        if "@" in email and "." in email: emails.append(email)
+        if "@" in email and "." in email:
+            emails.append(email)
         return emails
+
 
 emails = extract_email_addresses()
 print(emails)
-
 
 
 #
@@ -36,6 +39,3 @@ print(emails)
 #
 # a = kapotas_tekstas
 # print(a)
-
-
-

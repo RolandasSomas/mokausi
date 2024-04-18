@@ -1,4 +1,4 @@
-'''
+"""
 Pvz. jei duota:
 Data = {
 1: ‘vienas’,
@@ -22,7 +22,8 @@ Ir:
 1: ‘vienas’,
 2: ‘du’,
 }
-# '''
+# """
+
 # data = {
 # 1: 'vienas',
 # 2: 'du',
@@ -37,8 +38,11 @@ Ir:
 # print(data)
 
 import copy
-data=[]
-def calculate_dict(data: dict, kintamasis:list, deleting_key):
+
+data = []
+
+
+def calculate_dict(data: dict, kintamasis: list, deleting_key):
     result_n = {}
     new_data = copy.deepcopy(data)
     for key in data:
@@ -49,14 +53,9 @@ def calculate_dict(data: dict, kintamasis:list, deleting_key):
     return result_n, new_data
 
 
-numbers  = {
-1: 'vienas',
-2: 'du',
-3: 'trys',
-4: 'keturi'
-}
+numbers = {1: "vienas", 2: "du", 3: "trys", 4: "keturi"}
 
-needed_keys= [1, 2]
+needed_keys = [1, 2]
 deleted_keys = [1]
 
-print(calculate_dict(data=numbers, kintamasis=needed_keys, deleting_key= deleted_keys))
+print(calculate_dict(data=numbers, kintamasis=needed_keys, deleting_key=deleted_keys))

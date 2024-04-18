@@ -1,4 +1,4 @@
-'''
+"""
 Exercise 14: Print a downward Half-Pyramid Pattern of Star (asterisk)
 
 * * * * *
@@ -10,7 +10,7 @@ Exercise 14: Print a downward Half-Pyramid Pattern of Star (asterisk)
 * *
 
 *
-'''
+"""
 
 # def printing_stars(kiek:int):
 #     is_galo = kiek+1
@@ -20,8 +20,10 @@ Exercise 14: Print a downward Half-Pyramid Pattern of Star (asterisk)
 #
 # printing_stars(8)
 
-def printing_stars(kiek:int):
+
+def printing_stars(kiek: int):
     for i in range(kiek, 0, -1):
-        print('*' * i)
+        print("*" * i)
+
 
 printing_stars(8)

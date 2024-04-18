@@ -1,9 +1,10 @@
-'''
+"""
 Parašykite funkciją, kuri perkeltų visus vieno tipo elementus į list galą:
 move_to_end([1, 3, 2, 4, 4, 1], 1) ➞ [3, 2, 4, 4, 1, 1]
 # Move all the 1s to the end of the array.
 Registruokite įvestis ir rezultatus į failą.
-'''
+"""
+
 
 def move_ones_to_end(arr):
     not_ones = []

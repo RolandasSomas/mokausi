@@ -1,8 +1,9 @@
-'''
+"""
 Parašyti funkciją, į kurią padavus skaičių atspausdintų
 tokia tvarka kaip parodyta žemiau. Funkcija turi
 priimti 2 variable – nuo kurio iki kurio skaiciaus.:
-'''
+"""
+
 # 1
 # 22
 # 333
@@ -14,7 +15,6 @@ priimti 2 variable – nuo kurio iki kurio skaiciaus.:
 # 55555
 
 
-
 # def numbers(nuo:int, iki:int):
 #     for i in range(nuo, iki):
 #        for s in range(i):
@@ -24,8 +24,11 @@ priimti 2 variable – nuo kurio iki kurio skaiciaus.:
 # numbers(nuo,iki)
 nuo = 2
 iki = 6
-def numbers(nuo:int, iki:int):
-    for i in range(nuo, iki+1):
-       print(str(i) * int(i))
-numbers(nuo,iki)
 
+
+def numbers(nuo: int, iki: int):
+    for i in range(nuo, iki + 1):
+        print(str(i) * int(i))
+
+
+numbers(nuo, iki)

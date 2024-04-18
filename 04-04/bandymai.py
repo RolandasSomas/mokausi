@@ -8,8 +8,10 @@
 
 import pyjokes
 
+
 def get_joke():
     print(pyjokes.get_joke())
+
 
 if __name__ == "__main.py__":
     get_joke()
