@@ -1,7 +1,6 @@
-'''
+"""
 Raskite visus skaičius nuo 1 iki 1000, kurie dalijasi iš 6.
-'''
-
+"""
 
 # result=int()
 #
@@ -11,12 +10,13 @@ Raskite visus skaičius nuo 1 iki 1000, kurie dalijasi iš 6.
 
 # destytojo versija
 
+
 def find_numbers_devide_number_six():
-    rezultatas= []
+    rezultatas = []
     for number in range(1, 1001):
         if number % 6 == 0:
             rezultatas.append(number)
     return rezultatas
 
-print(find_numbers_devide_number_six())
 
+print(find_numbers_devide_number_six())

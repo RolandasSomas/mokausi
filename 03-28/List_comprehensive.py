@@ -1,6 +1,5 @@
-
-
 import math
+
 # squares = []
 # for number in range(10):
 #     squares.append(number * number)
@@ -50,6 +49,3 @@ import math
 #
 # print(list(map(dauginti, data_1)))
 # print([dauginti(x) for x in data_1])
-
-
-

@@ -1,6 +1,6 @@
-'''
+"""
 Sukurkite funkciją, kuri prie kiekvieno list nario prideda string galūnę
-'''
+"""
 
 # def add_string(values:list,end_string= 'string') -> list:
 #     return [f'{d}_{end_string}' for d in data]
